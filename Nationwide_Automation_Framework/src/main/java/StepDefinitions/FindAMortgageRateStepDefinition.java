@@ -24,6 +24,8 @@ public class FindAMortgageRateStepDefinition {
 	public static WebDriver driver;
 	static Actions action;
 	public MortgagePage mortgage;
+	
+	//Methods to implemented
 
 	@Given("^User opens the url https://www.nationwide.co.uk$")
 	public void user_opens_the_url_https_www_nationwide_co_uk() {

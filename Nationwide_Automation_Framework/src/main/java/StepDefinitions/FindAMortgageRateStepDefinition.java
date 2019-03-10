@@ -25,7 +25,7 @@ public class FindAMortgageRateStepDefinition {
 	static Actions action;
 	public MortgagePage mortgage;
 	
-	//Methods to implemented
+	//methods
 
 	@Given("^User opens the url https://www.nationwide.co.uk$")
 	public void user_opens_the_url_https_www_nationwide_co_uk() {

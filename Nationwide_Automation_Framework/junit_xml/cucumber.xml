@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="19.013104">
+<testcase classname="Find a mortgage rate" name="Navigate user to 'Nationwide mortgage Page' as a New User" time="11.963906">
+<system-out><![CDATA[Given User opens the url https://www.nationwide.co.uk.......................passed
+When User navigates to Mortgage rates for 'New mortgage customer'...........passed
+Then 'Search for a Nationwide mortgage' Page should be displayed............passed
+]]></system-out>
+</testcase>
+<testcase classname="Find a mortgage rate" name="Find a mortgage rate for New User" time="5.326456">
+<system-out><![CDATA[Given when user is on the 'Search for a Nationwide mortgage' Page...........passed
+When the user selects No for Do you have a Nationwide mortgage option.......passed
+And I m changing lender' Option for 'What type of mortgage are you looking for?' menu.passed
+And the user enters 'Property value = £300,000'.............................passed
+And the user enters 'Mortgage amount = £150,000'............................passed
+And the user enters 'Term = 30 years'.......................................passed
+And Clicks on Find a Mortgage Rate button...................................passed
+And the user applies the first filter by 'Mortgage type = Fixed'............passed
+And the user selects the second filter by 'Deal period = 2 yr Fixed, 3 yr Fixed, 5 yr Fixed, 10 yr Fixed'.passed
+And And the user applies the third filter by 'Product fee = With Fee'.......passed
+Then System returns the products matching the filter criterion..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Find a mortgage rate" name="Initiate Remortgage Application as a New User" time="1.722742">
+<system-out><![CDATA[Given the list of mortgages matching the filter criterion are available.....passed
+When the user clicks on 'More info and apply' for the '5 yr Fixed' product..passed
+And the user clicks on 'Apply' button.......................................passed
+Then the system displays 'Start your remortgage application' page...........passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Navigate user to \u0027Nationwide mortgage Page\u0027 as a New User",
+        "description": "",
+        "id": "find-a-mortgage-rate;navigate-user-to-\u0027nationwide-mortgage-page\u0027-as-a-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9260890342,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the url https://www.nationwide.co.uk",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.user_opens_the_url_https_www_nationwide_co_uk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2702688127,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Mortgage rates for \u0027New mortgage customer\u0027",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.user_navigates_to_Mortgage_rates_for_New_mortgage_customer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 327254,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\u0027Search for a Nationwide mortgage\u0027 Page should be displayed",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.search_for_a_Nationwide_mortgage_Page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Find a mortgage rate for New User",
+        "description": "",
+        "id": "find-a-mortgage-rate;find-a-mortgage-rate-for-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179626,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "when user is on the \u0027Search for a Nationwide mortgage\u0027 Page",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.when_user_is_on_the_Search_for_a_Nationwide_mortgage_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 312625787,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user selects No for Do you have a Nationwide mortgage option",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.the_user_selects_No_for_Do_you_have_a_Nationwide_mortgage_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133778289,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I m changing lender\u0027 Option for \u0027What type of mortgage are you looking for?\u0027 menu",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.i_m_changing_lender_Option_for_What_type_of_mortgage_are_you_looking_for_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128607945,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters \u0027Property value \u003d £300,000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300",
+                  "offset": 35
+                },
+                {
+                  "val": "000",
+                  "offset": 39
+                }
+              ],
+              "location": "FindAMortgageRateStepDefinition.the_user_enters_Property_value_£(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106845394,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \u0027Mortgage amount \u003d £150,000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "150",
+                  "offset": 36
+                },
+                {
+                  "val": "000",
+                  "offset": 40
+                }
+              ],
+              "location": "FindAMortgageRateStepDefinition.the_user_enters_Mortgage_amount_£(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88413829,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters \u0027Term \u003d 30 years\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 24
+                }
+              ],
+              "location": "FindAMortgageRateStepDefinition.the_user_enters_Term_years(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152969321,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Clicks on Find a Mortgage Rate button",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.clicks_on_Find_a_Mortgage_Rate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2651185215,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user applies the first filter by \u0027Mortgage type \u003d Fixed\u0027",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.the_user_applies_the_first_filter_by_Mortgage_type_Fixed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404725161,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user selects the second filter by \u0027Deal period \u003d 2 yr Fixed, 3 yr Fixed, 5 yr Fixed, 10 yr Fixed\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 53
+                },
+                {
+                  "val": "3",
+                  "offset": 65
+                },
+                {
+                  "val": "5",
+                  "offset": 77
+                },
+                {
+                  "val": "10",
+                  "offset": 89
+                }
+              ],
+              "location": "FindAMortgageRateStepDefinition.the_user_selects_the_second_filter_by_Deal_period_yr_Fixed_yr_Fixed_yr_Fixed_yr_Fixed(int,int,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488465285,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "And the user applies the third filter by \u0027Product fee \u003d With Fee\u0027",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.and_the_user_applies_the_third_filter_by_Product_fee_With_Fee()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 858659901,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "System returns the products matching the filter criterion",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.system_returns_the_products_matching_the_filter_criterion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Initiate Remortgage Application as a New User",
+        "description": "",
+        "id": "find-a-mortgage-rate;initiate-remortgage-application-as-a-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146707137,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the list of mortgages matching the filter criterion are available",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.the_list_of_mortgages_matching_the_filter_criterion_are_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237748378,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks on \u0027More info and apply\u0027 for the \u00275 yr Fixed\u0027 product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 50
+                }
+              ],
+              "location": "FindAMortgageRateStepDefinition.the_user_clicks_on_More_info_and_apply_for_the_yr_Fixed_product(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1129623411,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks on \u0027Apply\u0027 button",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.the_user_clicks_on_Apply_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208662951,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the system displays \u0027Start your remortgage application\u0027 page",
+            "match": {
+              "location": "FindAMortgageRateStepDefinition.the_system_displays_Start_your_remortgage_application_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Find a mortgage rate",
+    "description": "",
+    "id": "find-a-mortgage-rate",
+    "keyword": "Feature",
+    "uri": "C:/Users/User/eclipse-workspace/BDD/Nationwide_Automation_Framework/src/main/java/Features/Find-Mortgage-Rate.feature"
+  }
+]

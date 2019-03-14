@@ -118,7 +118,51 @@
             <artifactId>tools</artifactId>
             <version>1.6</version>
             <scope>system</scope>
-            <systemPath>C:\Program Files\Java\jdk1.8.0_51\lib\tools.jar</systemPath>		
+            <systemPath>C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar</systemPath>
         </dependency>
+        <dependency>
+        
+<groupId>com.aventstack</groupId>
+<artifactId>extentreports</artifactId>
+<version>3.0.6</version>
+</dependency>
+
+<dependency>
+<groupId>com.vimalselvam</groupId>
+<artifactId>cucumber-extentsreport</artifactId>
+<version>3.0.2</version>
+</dependency>
     </dependencies>
+
+    <build>
+        <!-- To define the plugin version in your parent POM -->
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-report-plugin</artifactId>
+                    <version>3.0.0-M3</version>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
+        <!-- To use the plugin goals in your POM or parent POM -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                </plugin>
+        
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>3.0.0-M3</version>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>

@@ -276,6 +276,7 @@ public class FindAMortgageRateStepDefinition {
 		  String heading1 = element21.getText();
 		  Assert.assertEquals("Start your remortgage application", heading1);
 	     
+		  driver.quit();
 	  }
 	   
 	

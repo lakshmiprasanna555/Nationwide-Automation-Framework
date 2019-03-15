@@ -33,21 +33,21 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.user_opens_the_url_https_www_nationwide_co_uk()"
 });
 formatter.result({
-  "duration": 6136286409,
+  "duration": 7119126715,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.user_navigates_to_Mortgage_rates_for_New_mortgage_customer()"
 });
 formatter.result({
-  "duration": 2786794058,
+  "duration": 2434228850,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.search_for_a_Nationwide_mortgage_Page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 173653,
+  "duration": 280746,
   "status": "passed"
 });
 formatter.scenario({
@@ -117,21 +117,21 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.when_user_is_on_the_Search_for_a_Nationwide_mortgage_Page()"
 });
 formatter.result({
-  "duration": 161280,
+  "duration": 158721,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_selects_No_for_Do_you_have_a_Nationwide_mortgage_option()"
 });
 formatter.result({
-  "duration": 307053916,
+  "duration": 255117871,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.i_m_changing_lender_Option_for_What_type_of_mortgage_are_you_looking_for_menu()"
 });
 formatter.result({
-  "duration": 117979834,
+  "duration": 127409602,
   "status": "passed"
 });
 formatter.match({
@@ -148,7 +148,7 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_enters_Property_value_£(int,int)"
 });
 formatter.result({
-  "duration": 144841937,
+  "duration": 131670299,
   "status": "passed"
 });
 formatter.match({
@@ -165,7 +165,7 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_enters_Mortgage_amount_£(int,int)"
 });
 formatter.result({
-  "duration": 107852465,
+  "duration": 85304393,
   "status": "passed"
 });
 formatter.match({
@@ -178,21 +178,21 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_enters_Term_years(int)"
 });
 formatter.result({
-  "duration": 81040282,
+  "duration": 65351735,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.clicks_on_Find_a_Mortgage_Rate_button()"
 });
 formatter.result({
-  "duration": 160315017,
+  "duration": 142892495,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_applies_the_first_filter_by_Mortgage_type_Fixed()"
 });
 formatter.result({
-  "duration": 2358954973,
+  "duration": 2369250022,
   "status": "passed"
 });
 formatter.match({
@@ -217,23 +217,22 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_selects_the_second_filter_by_Deal_period_yr_Fixed_yr_Fixed_yr_Fixed_yr_Fixed(int,int,int,int)"
 });
 formatter.result({
-  "duration": 428444099,
+  "duration": 395517778,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.and_the_user_applies_the_third_filter_by_Product_fee_With_Fee()"
 });
 formatter.result({
-  "duration": 752636375,
+  "duration": 280851866,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.system_returns_the_products_matching_the_filter_criterion()"
 });
 formatter.result({
-  "duration": 471317735,
-  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-55QQK7EU\u0027, ip: \u0027192.168.0.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 2eb6cf87e0afce8451a2d079360c6038\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\r\n\tat StepDefinitions.FindAMortgageRateStepDefinition.system_returns_the_products_matching_the_filter_criterion(FindAMortgageRateStepDefinition.java:226)\r\n\tat ✽.Then System returns the products matching the filter criterion(C:/Users/User/eclipse-workspace/BDD/Nationwide_Automation_Framework/src/main/java/Features/Find-Mortgage-Rate.feature:20)\r\n",
-  "status": "failed"
+  "duration": 1065411469,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 23,
@@ -267,7 +266,7 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_list_of_mortgages_matching_the_filter_criterion_are_available()"
 });
 formatter.result({
-  "duration": 127468055,
+  "duration": 82665030,
   "status": "passed"
 });
 formatter.match({
@@ -280,21 +279,21 @@ formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_clicks_on_More_info_and_apply_for_the_yr_Fixed_product(int)"
 });
 formatter.result({
-  "duration": 206135643,
+  "duration": 164678967,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_user_clicks_on_Apply_button()"
 });
 formatter.result({
-  "duration": 1420316945,
+  "duration": 2209077512,
   "status": "passed"
 });
 formatter.match({
   "location": "FindAMortgageRateStepDefinition.the_system_displays_Start_your_remortgage_application_page()"
 });
 formatter.result({
-  "duration": 803138819,
+  "duration": 767752335,
   "status": "passed"
 });
 });

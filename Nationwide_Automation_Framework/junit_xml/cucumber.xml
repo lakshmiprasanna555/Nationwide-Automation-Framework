@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="16.410911">
-<testcase classname="Find a mortgage rate" name="Navigate user to 'Nationwide mortgage Page' as a New User" time="8.923254">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="17.696746">
+<testcase classname="Find a mortgage rate" name="Navigate user to 'Nationwide mortgage Page' as a New User" time="9.553636">
 <system-out><![CDATA[Given User opens the url https://www.nationwide.co.uk.......................passed
 When User navigates to Mortgage rates for 'New mortgage customer'...........passed
 Then 'Search for a Nationwide mortgage' Page should be displayed............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Find a mortgage rate" name="Find a mortgage rate for New User" time="4.930598">
-<failure message="org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document&#10;  (Session info: chrome=72.0.3626.121)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'LAPTOP-55QQK7EU', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}&#10;Session ID: 2eb6cf87e0afce8451a2d079360c6038&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)&#13;&#10;&#9;at StepDefinitions.FindAMortgageRateStepDefinition.system_returns_the_products_matching_the_filter_criterion(FindAMortgageRateStepDefinition.java:226)&#13;&#10;&#9;at ✽.Then System returns the products matching the filter criterion(C:/Users/User/eclipse-workspace/BDD/Nationwide_Automation_Framework/src/main/java/Features/Find-Mortgage-Rate.feature:20)&#13;&#10;"><![CDATA[Given when user is on the 'Search for a Nationwide mortgage' Page...........passed
+<testcase classname="Find a mortgage rate" name="Find a mortgage rate for New User" time="4.918936">
+<system-out><![CDATA[Given when user is on the 'Search for a Nationwide mortgage' Page...........passed
 When the user selects No for Do you have a Nationwide mortgage option.......passed
 And I m changing lender' Option for 'What type of mortgage are you looking for?' menu.passed
 And the user enters 'Property value = £300,000'.............................passed
@@ -17,38 +17,10 @@ And Clicks on Find a Mortgage Rate button...................................pass
 And the user applies the first filter by 'Mortgage type = Fixed'............passed
 And the user selects the second filter by 'Deal period = 2 yr Fixed, 3 yr Fixed, 5 yr Fixed, 10 yr Fixed'.passed
 And And the user applies the third filter by 'Product fee = With Fee'.......passed
-Then System returns the products matching the filter criterion..............failed
-
-StackTrace:
-org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=72.0.3626.121)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-55QQK7EU', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 2eb6cf87e0afce8451a2d079360c6038
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
-	at StepDefinitions.FindAMortgageRateStepDefinition.system_returns_the_products_matching_the_filter_criterion(FindAMortgageRateStepDefinition.java:226)
-	at ✽.Then System returns the products matching the filter criterion(C:/Users/User/eclipse-workspace/BDD/Nationwide_Automation_Framework/src/main/java/Features/Find-Mortgage-Rate.feature:20)
-]]></failure>
+Then System returns the products matching the filter criterion..............passed
+]]></system-out>
 </testcase>
-<testcase classname="Find a mortgage rate" name="Initiate Remortgage Application as a New User" time="2.557059">
+<testcase classname="Find a mortgage rate" name="Initiate Remortgage Application as a New User" time="3.224174">
 <system-out><![CDATA[Given the list of mortgages matching the filter criterion are available.....passed
 When the user clicks on 'More info and apply' for the '5 yr Fixed' product..passed
 And the user clicks on 'Apply' button.......................................passed

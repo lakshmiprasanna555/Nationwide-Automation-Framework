@@ -1,8 +1,6 @@
 
 package StepDefinitions;
-
 import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,12 +10,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-
-
+import Library.Utility;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
 
 public class FindAMortgageRateStepDefinition {
 
@@ -35,6 +32,7 @@ public class FindAMortgageRateStepDefinition {
 		driver.get("https://www.nationwide.co.uk");
 		String title = driver.getTitle();
 		Assert.assertEquals("Nationwide Building Society | building society, nationwide", title);
+		Utility.captureScreenShot(driver, "Browser with title opened");
 	}
 
 	@When("^User navigates to Mortgage rates for 'New mortgage customer'$")
@@ -265,7 +263,7 @@ public class FindAMortgageRateStepDefinition {
 			wait20.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td[@id='prod131258']//a[@class='button ngbaButton'][contains(text(),'Apply')]")));
 		  //((JavascriptExecutor)driver).executeScript("window.scrollTo(0,document.body.scrollHeight);");
 			  driver.findElement(By.xpath("//td[@id='prod131258']//a[@class='button ngbaButton'][contains(text(),'Apply')]")).click();
-			  
+			  Utility.captureScreenShot(driver, "user clicks on apply button");
 	  }
 	  
 	  @Then("^the system displays 'Start your remortgage application' page$")
@@ -275,11 +273,11 @@ public class FindAMortgageRateStepDefinition {
 		  WebElement element21 = driver.findElement(By.xpath("//h1[contains(@class,'center')]"));
 		  String heading1 = element21.getText();
 		  Assert.assertEquals("Start your remortgage application", heading1);
-	     
 		  driver.quit();
+		 
 	  }
-	   
+	 
+		}
 	
-	
-}
+
 
